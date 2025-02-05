@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
   <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3976/3976631.png" type="image/x-icon" />
-  <title>Global Education Website</title>
+  <title>Global Education Institute</title>
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -13,6 +15,11 @@
 </head>
 
 <body>
+  <style>
+    /* These hover effects cannot be achieved with pure inline CSS */
+    li:hover > ul { display: block !important; }
+    li > ul > li:hover { background-color: #f1f1f1; }
+    </style>
   <!-- ****************************************** -->
   <div class="header">
     <div class="header_main">
@@ -36,7 +43,7 @@
           </div>
           <div class="header_email">
             <h5>Call</h5>
-            <p>Call Us: +91 7232085151</p>
+            <p>Call Us: <br>+91 9950885151<br> +91 9460885151<br> +91 02979296551</p>
           </div>
         </div>
       </div>
@@ -44,6 +51,39 @@
      
     </div>
   </div>
+
+  <div style="
+  background: linear-gradient(to right, #004d99, #0066cc);
+  padding: 15px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+">
+  <h3 style="
+      margin: 5px 0;
+      font-size: 22px;
+      font-family: Arial, sans-serif;
+      transform: translateX(0);
+      transition: transform 0.5s ease;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  ">
+      Affilated to Jai Narayan Vyas University, Jodhpur
+  </h3>
+  <h3 style="
+      margin: 5px 0;
+      font-size: 22px;
+      font-family: Arial, sans-serif;
+      transform: translateX(0);
+      transition: transform 0.5s ease;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  ">
+      Recognised by NCTE Delhi and Gov. of Rajasthan
+  </h3>
+</div>
   <!-- ****************************************** -->
   <div class="nav">
     <div class="nav_main">
@@ -52,8 +92,43 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="courses.html">Courses</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="studentzone.html">Student Zone</a></li>
+            <!-- *************fees structure and enrolled students, admission form***************************** -->
+          <li><a href="faculty.html">Faculty</a></li>
+          <li style="position: relative; display: inline-block;">
+            <a href="#" style="display: block; text-decoration: none; color: rgb(251, 250, 250);">Infrastructure</a>
+            <ul style="display: none; position: absolute; min-width: 160px; background-color: #f9f9f9; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); margin: 0; padding: 0; list-style: none;">
+                <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Library</a></li>
+                <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Science Lab</a></li>
+                <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Geography Lab</a></li>
+                <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Arts Lab</a></li>
+                <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">IT Lab</a></li>
+            </ul>
+        </li>
+  <!-- ****************************************** -->
+
+  <li style="position: relative; display: inline-block;">
+    <a href="#" style="display: block; text-decoration: none; color: rgb(251, 250, 250);">Legal Documents</a>
+    <ul style="display: none; position: absolute; min-width: 160px; background-color: #f9f9f9; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); margin: 0; padding: 0; list-style: none;">
+        <li style="width: 100%;"><a href="landdocuments.html" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Land Documents</a></li>
+        <li style="width: 100%;"><a href="buildingmap.html" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Building Map</a></li>
+        <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Safety Certificate</a></li>
+        <li style="width: 100%;"><a href="recognitionorder.html" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Recognition Order</a></li>
+        <li style="width: 100%;"><a href="affidavit.html" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Affidavit</a></li>
+        <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">NCTE Application</a></li>
+        <li style="width: 100%;"><a href="#" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Norms and Standards</a></li>
+        <li style="width: 100%;"><a href="administrativedoc.html" style="display: block; padding: 12px 16px; text-decoration: none; color: black;">Administrative Documents</a></li>
+    </ul>
+</li>
+          <!-- *******************land documents, building documents,*********************** -->
+           <!-- **********************recognition orders of all courses******************** -->
+            <!-- *********************applicarion form********************* -->
+             <!-- ********************affidavits********************** -->
+          <li><a href="accounts.html">Accounts</a></li>
+          <!-- ****************balance sheets************************** -->
+           <!-- *********************income and expenditure********************* -->
+            <!-- ******************receipt and payments************************ -->
+            <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -65,12 +140,19 @@
   <!-- ****************************************** -->
   <div class="Home">
     <div class="Home_main">
-      <h1>Education Needs</h1>
-      <h1>Complete Solution</h1>
-    =
+ 
+    
    
     </div>
   </div>
+
+  <div style="background: linear-gradient(to right, #f1f1f1, #ffffff); padding: 30px; text-align: center; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin: 20px; border-left: 5px solid #4a90e2;">
+    <h3 style="font-family: 'Georgia', serif; color: #2c3e50; font-size: 28px; line-height: 1.5; margin: 0; font-weight: 600; letter-spacing: 1px; text-transform: capitalize; position: relative; display: inline-block;">
+        <span style="color: #4a90e2; font-size: 45px; position: absolute; left: -20px; top: -20px;">"</span>
+        The true measure of education is how much we value our students.
+        <span style="color: #4a90e2; font-size: 45px; position: absolute; right: -20px; bottom: -30px;">"</span>
+    </h3>
+</div>
    <!-- ****************************************** -->
  
 <div class="offer" style="
@@ -345,6 +427,14 @@
     </div>
   </div>
 </div>
+
+<div style="background: linear-gradient(to right, #f1f1f1, #ffffff); padding: 30px; text-align: center; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin: 20px; border-left: 5px solid #4a90e2;">
+  <h3 style="font-family: 'Georgia', serif; color: #2c3e50; font-size: 28px; line-height: 1.5; margin: 0; font-weight: 600; letter-spacing: 1px; text-transform: capitalize; position: relative; display: inline-block;">
+      <span style="color: #4a90e2; font-size: 45px; position: absolute; left: -20px; top: -20px;">"</span>
+      True education goes beyond books; it builds minds, skills, and character.
+      <span style="color: #4a90e2; font-size: 45px; position: absolute; right: -20px; bottom: -30px;">"</span>
+  </h3>
+</div>
         <!-- ****************************************** -->
       </div>
       <div class="offer_2">
@@ -360,35 +450,30 @@
         <div class="univ_main1_col2">
           <h1 class="logo mr-auto"><a><strong style="color:#ff6600">Global </strong><strong  style="color:#003399">Education </strong>Institute</a></h1>
           <p>
-            Separated they live in. A small river named Duden flows by their
-            place and supplies it with the necessary regelialia. It is a
-            paradisematic country. A small river named Duden flows by their
-            place and supplies it with the necessary regelialia. It is a
-            paradisematic country, in which roasted parts of sentences fly
-            into your mouth.
+            Global Education Institute (GEI), located in Sanchore, Rajasthan, is a premier educational institution dedicated to fostering academic excellence and holistic development in students. Established in 2013, the institute is affiliated with Jai Narain Vyas University, Jodhpur, and offers a wide range of undergraduate and postgraduate programs aimed at providing students with a solid academic foundation and a bright future.
+
+            GEI is committed to creating a learning environment that promotes intellectual growth, creativity, and critical thinking. The institute offers a variety of programs in fields such as Arts, Science, and Education, catering to the diverse academic interests of students. With a focus on practical learning, the institute ensures that students gain hands-on experience and are well-prepared for the challenges of the real world.
+            
+            
           </p>
-          <p>
-            A small river named Duden flows by their place and supplies it
-            with the necessary regelialia. It is a paradisematic country, in
-            which roasted parts of sentences fly into your mouth.
-          </p>
+        
         </div>
       </div>
       <div class="univ_main2">
         <div class="univ_main2_col1">
-          <h1>18</h1>
+          <h1>15+</h1>
           <p>Certified Teachers</p>
         </div>
         <div class="univ_main2_col1">
-          <h1>401</h1>
+          <h1>1000+</h1>
           <p>Students</p>
         </div>
         <div class="univ_main2_col1">
-          <h1>30</h1>
+          <h1>5+</h1>
           <p>Courses</p>
         </div>
         <div class="univ_main2_col1">
-          <h1>50</h1>
+          <h1>20+</h1>
           <p>Awards Won</p>
         </div>
       </div>
@@ -411,7 +496,17 @@
             <h2>Best College in Sanchore</h2>
             <p>Remarkable journey of Global Education Institute.</p>
             <div class="Blog_mid_main">
-              <button class="btn2">Read More </button>
+             <!-- From Uiverse.io by vinodjangid07 --> 
+             <a href="https://www.onlinesanchore.com/listing/global-education-institute-dedwa-sanchore/" target="_blank">
+              <button class="button">
+                <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+                </svg>
+                Read
+              </button>
+            </a>
+            
+
             
             </div>
           </div>
@@ -424,7 +519,16 @@
             <h2>Siksha.com Blog</h2>
             <p>Quality Education with guidance and support.</p>
             <div class="Blog_mid_main">
-              <button class="btn2">Read More </button>
+             <!-- From Uiverse.io by vinodjangid07 --> 
+             <a href="https://www.shiksha.com/college/global-education-institute-sanchore-jalore-139741" target="_blank">
+              <button class="button">
+                <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+                </svg>
+                Read
+              </button>
+            </a>
+
             
             </div>
           </div>
@@ -436,7 +540,16 @@
             <h2>Career 360 Blog</h2>
             <p>Modern approach to education and learning</p>
             <div class="Blog_mid_main">
-              <button class="btn2">Read More </button>
+             <!-- From Uiverse.io by vinodjangid07 --> 
+             <a href="https://www.careers360.com/colleges/global-education-institute-sanchore" target="_blank">
+              <button class="button">
+                <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+                </svg>
+                Read
+              </button>
+            </a>
+
               
             </div>
           </div>
@@ -446,12 +559,11 @@
     </div>
     <!-- ****************************************** -->
     <div class="Testimonial">
-      <h1 class="main-h2">Student Says About Us</h1>
+      <h1 class="main-h2">What Student Says About Us</h1>
       <p class="main-p">
-        Separated they live in. A small river named Duden flows by their place
-        and supplies it with the
+     
       </p>
-      <p class="main-p">necessary regelialia. It is a paradisematic country</p>
+      
       <div class="Testimonial_main">
         <!-- ******************* -->
         <div class="Testimonial_col1">
@@ -462,7 +574,7 @@
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
               blind texts.</p>
             <h3>Rodel Golez</h3>
-            <span>Mother</span>
+            <span>Student</span>
           </div>
         </div>
         <!-- ******************* -->
@@ -474,7 +586,7 @@
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
               blind texts.</p>
             <h3>Rodel Golez</h3>
-            <span>Mother</span>
+            <span>Student</span>
           </div>
         </div>
         <!-- ******************* -->
@@ -508,15 +620,7 @@
                 font-weight: bold; 
                 margin: 0;">Enroll For Our Various Courses</h2>
             
-            
-            <button style="
-                background: transparent; 
-                color: rgb(246, 240, 240); 
-                padding: 10px 20px; 
-                border: 2px solid rgb(252, 250, 250); 
-                cursor: pointer; 
-                font-size: 16px; 
-                margin-top: 15px;"  >CONTACT US</button>
+          
         
         </div>
     </div>
@@ -530,9 +634,9 @@
         <div class="Footer_col1">
           <h2>Have a Questions?
           </h2>
-          <p> <i class="fa-solid fa-location-dot"></i> Global Education Institute, Dedva
+          <p> <i class="fa-solid fa-location-dot"></i> Global Education Institute, Village Dedva Khurd NH 68, Tehsil- Sanchore, District- Jalore, Rajasthan(343041)
           </p>
-          <p> <i class="fa-solid fa-phone"></i> +91 7232085151</p>
+          <p> <i class="fa-solid fa-phone"></i> +91 9950885151</p>
           <p><i class="fa-solid fa-envelope"></i> globalsanchore@gmail.com</p>
         </div>
         
@@ -544,7 +648,7 @@
             <li><i class="fa-solid fa-arrow-right"></i> <a href="about.html">About</a></li>
             <li><i class="fa-solid fa-arrow-right"></i> <a href="courses.html">Courses</a></li>
             <li><i class="fa-solid fa-arrow-right"></i> <a href="#">Staff</a></li>
-            <li><i class="fa-solid fa-arrow-right"></i> <a href="#">Blog</a></li>
+        
             <li><i class="fa-solid fa-arrow-right"></i> <a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -552,14 +656,35 @@
         <div class="Footer_col4">
         
           <h2>Connect With Us </h2>
-          <div class="social_icons">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-          </div>
+          <!-- From Uiverse.io by JaydipPrajapati1910 --> 
+<button>
+  <svg viewBox="0 0 16 16" class="bi bi-instagram" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+    <span>Instragram</span>
+</button>
+<!-- From Uiverse.io by Yaya12085 --> 
+<button>
+  <svg fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"></path> </g></svg>
+    <span>Facebook</span>
+</button>
+
+
+
+
         </div>
+           <!-- ************************* -->
+           <div class="Footer_col3">
+            <h2>Important Links</h2>
+            <ul>
+              <li><i class="fa-solid fa-arrow-right"></i> <a href="index.html">JNVU, Jodhpur</a></li>
+              <li><i class="fa-solid fa-arrow-right"></i> <a href="about.html">College Edu. Dep., Rajasthan</a></li>
+              <li><i class="fa-solid fa-arrow-right"></i> <a href="courses.html">NCTE, Delhi</a></li>
+              <li><i class="fa-solid fa-arrow-right"></i> <a href="#">UGC, Delhi</a></li>
+           
+            </ul>
+          </div>  
       </div>
       <div class="Footer_last">
+        <p>Last Updated <b> February 2025</b></p><br>
         <p>Copyright ©2025 All rights reserved <b> Global Education Institute</b></p>
       </div>
     </div>
